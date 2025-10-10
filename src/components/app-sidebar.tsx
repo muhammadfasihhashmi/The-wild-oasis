@@ -64,13 +64,13 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             <div className="ml-5">
               <Link to={"/"}>
                 <img
-                  src="img/logo-light.png"
+                  src="/img/logo-light.png"
                   alt="logo"
                   className="h-22 block dark:hidden transition-all duration-300"
                 />
 
                 <img
-                  src="img/logo-dark.png"
+                  src="/img/logo-dark.png"
                   alt="logo"
                   className="h-22 hidden dark:block transition-all duration-300"
                 />
