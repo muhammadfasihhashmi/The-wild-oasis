@@ -40,7 +40,7 @@ export function NavUser() {
         <DropdownMenuTrigger>
           <div className="h-9 w-9 rounded-full relative overflow-hidden">
             <img
-              src={user?.user_metadata?.userImage || "img/default-user.jpg"}
+              src={user?.user_metadata?.userImage || "/img/default-user.jpg"}
               alt="user"
               className="h-full w-full absolute cursor-pointer"
             />
